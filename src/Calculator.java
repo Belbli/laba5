@@ -137,7 +137,7 @@ public class Calculator {
                                     default:
                                         break;
                                 }
-                                number=Double.parseDouble(textField.getText());
+                                number=Double.parseDouble(textField.getText()); // this object will be garbage collected
                                 number2="";
 
                         }
